@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "username": "tax_king",
+        "password": "123456",
+        "profilePicture": "",
+        "favoriteGames": [],
+        "completedGames": [
+            "Oracle of Seasons",
+            "Four Swords",
+            "The Wind Waker",
+            "Four Swords Adventures"
+        ],
+        "ratedGames": [
+            "Oracle of Seasons",
+            "Four Swords",
+            "The Wind Waker",
+            "Four Swords Adventures"
+        ]
+    },
+    {
+        "id": 2,
+        "username": "ice_boss",
+        "password": "123456",
+        "profilePicture": "",
+        "favoriteGames": [],
+        "completedGames": [],
+        "ratedGames": []
+    },
+    {
+        "id": 3,
+        "username": "link_zelda",
+        "password": "123456",
+        "profilePicture": "",
+        "favoriteGames": [],
+        "completedGames": [],
+        "ratedGames": []
+    },
+    {
+        "id": 4,
+        "username": "sadi",
+        "password": "Sadi1234",
+        "profilePicture": "1673007472-profilePic.jpg",
+        "favoriteGames": [],
+        "completedGames": [
+            "Four Swords",
+            "The Legend of Zelda",
+            "The Adventure of Link",
+            "A Link to the Past",
+            "Oracle of Ages"
+        ],
+        "ratedGames": []
+    },
+    {
+        "id": 5,
+        "username": "krille11",
+        "password": "21238AaA!",
+        "profilePicture": "1673189615-images.jpg",
+        "favoriteGames": [
+            {
+                "post_id": "2",
+                "name": "The Adventure of Link",
+                "img": "..\/\/images\/boxart_images\/edited\/adventureoflink.jpg"
+            }
+        ],
+        "completedGames": [
+            "The Adventure of Link"
+        ],
+        "ratedGames": []
+    },
+    {
+        "id": 6,
+        "username": "testt",
+        "password": "Magenta123!",
+        "profilePicture": "1673207191-images.jpg",
+        "favoriteGames": [],
+        "completedGames": [],
+        "ratedGames": []
+    },
+    {
+        "id": 7,
+        "username": "test2",
+        "password": "Test123!",
+        "profilePicture": "1673209409-images.jpg",
+        "favoriteGames": [],
+        "completedGames": [],
+        "ratedGames": []
+    },
+    {
+        "id": 8,
+        "username": "krew",
+        "password": "Test123!asd",
+        "profilePicture": "1673210355-images.jpg",
+        "favoriteGames": [],
+        "completedGames": [],
+        "ratedGames": []
+    },
+    {
+        "id": 9,
+        "username": "test123",
+        "password": "test123!@ahahaA",
+        "profilePicture": [],
+        "favoriteGames": [],
+        "completedGames": [],
+        "ratedGames": []
+    }
+]
