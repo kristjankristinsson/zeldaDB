@@ -1,0 +1,187 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #16362b;
+  font-family: arial;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  width: 1170px;
+  margin: auto;
+}
+.logo {
+  color: #f2ff62;
+  font-size: 40px;
+  text-decoration: none;
+}
+.logo-wrapper {
+  width: 200px;
+}
+.main-header {
+  margin: 0;
+  margin-top: 60px;
+  padding: 10px 40px;
+  background-color: rgba(212, 209, 209, 0.523);
+  border: 1px solid rgb(255, 247, 27);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu_wrapper {
+  display: flex;
+  width: 80%;
+}
+.profile_wrapper {
+  display: flex;
+  position: relative;
+}
+.menu-items {
+  list-style: none;
+  margin: auto;
+}
+.menu-items li {
+  display: inline-block;
+  margin-right: 340px;
+}
+.menu-items li:last-child {
+  margin-right: 250px;
+}
+.menu-items li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s;
+}
+.menu-items li a.active {
+  color: rgb(255, 247, 27);
+}
+.menu-items li a:hover {
+  color: rgb(255, 247, 27);
+}
+
+.user_image {
+  width: 60px;
+  cursor: pointer;
+}
+.user_image img {
+  border-radius: 50%;
+}
+.user_name {
+  margin: auto;
+  margin-right: 20px;
+}
+.user_name a {
+  text-decoration: none;
+  color: white;
+}
+
+.game_img {
+  width: 150px;
+}
+
+.game_rating img {
+  width: 25px;
+  margin-right: 5px;
+}
+
+.game_rating h3 {
+  color: white;
+  font-size: 26px;
+}
+
+.game_rating {
+  text-align: left;
+}
+
+#game_list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  padding-top: 50px;
+}
+
+.empty_wrapper {
+  text-align: center;
+  color: white;
+  padding: 100px 0px;
+}
+.img_wrapper {
+  text-align: center;
+  position: relative;
+}
+.img_wrapper img {
+  border-radius: 50%;
+  width: 250px;
+  position: relative;
+}
+#profile_page_wrapper {
+  padding: 40px 0px;
+}
+.username_show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.username_show h4 {
+  color: white;
+  padding: 10px;
+  background-color: #032419;
+}
+#change_username {
+  background-color: transparent;
+  color: white;
+  margin-left: 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.ima_icon_wrapper {
+  width: 30px;
+  display: flex;
+  color: white;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.ima_icon_wrapper p {
+  font-size: 22px;
+}
+
+.ima_icon_wrapper img {
+  width: 24px;
+  margin-right: 7px;
+}
+
+.delete_btn {
+  text-align: end;
+  margin-right: 20px;
+}
+.delete_btn a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+form#username_check_form {
+  margin: auto;
+  width: 300px;
+  padding: 20px 0px;
+}
+
+form#username_check_form input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+p#error_username {
+  text-align: center;
+  color: red;
+  font-size: 20px;
+}
